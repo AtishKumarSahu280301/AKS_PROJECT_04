@@ -19,7 +19,7 @@ In this Project we use the following header file libraries they are as follows
 #include<windows.h> -> windows operation header file
 #include<time.h> -> time operatio header file
 #include<math.h> -> math header file for math function
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 How The Program Works:
 --------------------------------
 1. main():
@@ -33,7 +33,7 @@ If you press 2 then "Floating Arithmetic Operation" will happen
 If you press 3 then "Power Operation(A^n)" will happen
 If you press 4 then "Square & Cube Root Operation" will happen
 If you press any other key then it will show "Invalid Option!" after that it will take some millisecond using "Sleep(2000);" then, it will go back to the main() function again.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. IntegerArithmetic():
 --------------------------
 This function will calculate the basic arithmetic operation between two integer type data. First it will show the greeting for entering into the integer arithemtic calculating section. 
@@ -48,7 +48,7 @@ If you press 5 it will perform Modulo (A % B) = it will give the remainder
 If you press other key it will call the main() fucntion and you will go back to the main() function section.
 
 During the case 1 to 5 after showing the result of appropriate operation it will sleep for some milliseconds using "Sleep(3000);", then it will clear the screen using "system("Cls");" and it again call the IntegerArithmetic() function again if you want to perform the arithmetic opertion again & again.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3. FloatArithmetic():
 ---------------------------
 This function will calculate arithmetic operation between two floating point data. First it will show the greeting for entering into the float arithemtic calculating section. 
@@ -63,7 +63,7 @@ If you press 5 it will perform Modulo (A % B) = it will give the remainder
 If you press other key it will call the main() fucntion and you will go back to the main() function section.
 
 During the case 1 to 5 after showing the result of appropriate operation it will sleep for some milliseconds using "Sleep(3000);", then it will clear the screen using "system("Cls");" and it again call the FloatArithmetic() function again if you want to perform the arithmetic opertion again & again.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Power():
 ----------------
 This function will calculate the power of a number. Example in (A)^n, "A" is the number which is called as base, "n" is the number which is called as exponent, if i take like this (2)^3 the answer will be 8.
@@ -71,7 +71,7 @@ First it will show the greeting message. After that it will give instruction to 
 It will take two input base and exponent value. After taking the input it will give instruction to choose an option. Here we use the switch case statement. The options are as follows
 If you press 1 then it will calculate the operation (A)^n, take some time then it clear screen and again call the Power() function if you want to calculate again. 
 If you press 2 then it will clear the screen and go back to the main() function page.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5. SquareCube():
 ----------------------
 This function will find the square root and cube root of a number. 
@@ -84,7 +84,9 @@ If you press 2 then it will clear the screen and go back to the main() function 
 In github i already gave you the source(.c) file, executable(.exe) file, preprocessor(.i) file and object(.o) file you can check out the code and usee the executable file for practical knowledge.
 
 Thanks For Visit. 
+
 Name: Atish Kumar Sahu
+
 Gmail = kumarsahuatish280301@gmail.com
 
 NOTE:
